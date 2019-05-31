@@ -1,0 +1,336 @@
+/*GENERAL*/
+	* {
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+		color: #444;
+		font-size: 15px;
+	}
+
+	a {
+		text-decoration: none;
+		
+	}
+
+	.wrapper {
+		width: 1000px;
+		margin: 0 auto;
+		padding: 0 10px;
+		/*height: auto;*/
+	}
+
+	h2 {
+	}
+
+	h3 {
+		color: #444;
+		text-align: center;
+		font-size: 30px;
+		text-transform: uppercase;
+	}
+
+	h4 {
+		font-size: 24px;
+		text-align: center;
+		color: #444;
+		text-transform: uppercase;
+	}
+
+	p {
+		line-height: 20px
+		color: #777;
+		text-align: center;
+
+	}
+
+	small {
+		padding: 20px 10px ;
+		font-size: 12px;
+		font-style: italic;
+		color: #444;
+	}
+	
+	.clear {
+		clear: both;
+	}
+
+/*INTITULE*/
+	h1 {
+		font-size: 45px;
+		font-family: 'Crete round', serif;
+		
+	}
+
+	h1 .orange	{
+		font-size: inherit;
+		font-family: inherit;
+		color: #ff7a00;
+	}
+
+/*ENTETE*/
+	header {
+		height: 120px;
+
+	}
+
+	header h1 {
+		float: left;
+		margin-top: 32px;
+		
+	}
+
+	nav	{
+		font-weight: bold;
+		text-transform: uppercase;
+		float: right;
+		margin-top: 50px;
+	}
+
+	nav	li {
+		list-style: none;
+		display: inline-block;
+		margin-right: 20px;
+	}
+
+	nav li a {
+		color: #444;
+	}
+
+/*BANNIERE*/
+	#mainpict {
+		/*position: relative;
+		top: 200px	;*/
+		height: 580px;
+		background: url('Images/main.jpg') center ;
+	}
+
+	#mainpict h2 {
+		text-transform: uppercase;
+		font-weight: normal;
+		text-align: center;
+		padding: 150px 0 40px;
+		font-size: 55px;
+		color: #444;
+		margin-bottom: 20px;
+
+	}
+	#mainpict h2 strong	{
+		color: #444;
+		font-size: 55px;
+
+	}
+
+	.button1 {
+		display: block;
+		width: 120px;
+		height: 50px;
+		color: #ffffff;
+		background: #ff7a00;
+		/*font-weight: bold;*/
+		margin: 0 auto;
+		text-align: center;
+		font-size: 20px;
+		line-height: 50px;
+		border-radius: 3px;
+
+	}
+
+	.button1:hover {
+		background-color: #02b8dd;
+
+	}
+
+/*STEPS*/
+	#steps ul {
+		margin: 80px 0;
+	}
+
+	#steps li {
+		display: inline-block;
+		width: 300px;
+		float: left;
+		padding-top: 140px;
+		margin-right: 10px;
+		text-align: center;
+
+	}
+
+	#steps h4 {
+		
+		margin-bottom: 20px;
+	}
+
+	#steps p {
+		margin-bottom: 20px;
+
+	}
+
+	#step-1 {
+		background: url('Images/steps-icon-1.png') no-repeat top center;
+	}
+
+	#step-2 {
+		background: url('Images/steps-icon-2.png') no-repeat top center;		
+	}
+
+	#step-3 {
+		background: url('Images/steps-icon-3.png') no-repeat top center;
+
+	}
+
+/*POSSIBILITIES*/
+	#possibilities {
+		padding: 60px 0px;
+		background: #efefef;
+		height: 270px;
+
+	}
+
+	#possibilities article {
+		width: 460px;
+		float: left;
+		border-radius: 10px;
+		display: block;
+		text-align: center;
+		/*box-sizing: border-box;*/
+
+	}
+
+	#possibilities article:first-child	{
+		margin-right: 20px;
+	}
+
+	.overlay {
+		background-color: rgba(255,255,255,0.95);
+		height: 230px;
+		width: 190px;
+		padding: 20px;
+		border-radius: 10px 0 0 10px;
+		display: block;
+		float: left;
+
+	}
+
+	#possibilities h4 {
+		
+		padding-bottom: 20px;
+		border-bottom: solid #ddd 1px;
+		margin-bottom: 20px;
+
+	}
+
+
+	.button-2 {
+		display: block;
+		width: 150px;
+		height: 30px;
+		color: #fff;
+		background: #ff7a00;
+		margin: 30px auto;
+		text-align: center;
+		font-size: 15px;
+		line-height: 30px;
+		border-radius: 3px;
+
+	}
+
+	.button-2:hover {
+		background-color: #02b8dd;
+
+	}
+
+/* CONTACT */
+	#contact {
+		margin: 20px auto;
+
+	}
+
+	#contact article {
+
+	}
+
+	#contact h3 {
+		margin: 0 auto 20px;
+		width: 14em;
+		padding-bottom: 15px;
+		border-bottom: #02b8dd solid 2px;
+
+	}
+
+	#contact p {
+		margin: 20px auto 50px;
+		/*padding: 20px;*/
+
+
+
+	}
+
+	form {
+		/*display: block;*/
+		margin: 60px 0 20px;
+	}
+
+	label, input, .button-3 {
+		font-size: 20px;
+		
+	}
+
+	label {
+		/*font-size: 20px;*/
+		/*font-size: 20px;*/
+		color: #777;
+		font-weight: bold;
+		margin-right: 10px;
+
+	}
+
+	input {
+		padding: 5px;
+		border-radius: 3px;
+		border: 2px solid #ddd; 
+		margin-right: 20px;
+
+
+	}
+
+	.button-3 {
+		border-radius: 3px;
+		background: #02b8dd;
+		color: #fff;
+		font-weight: bold;
+		border-style: none;
+		/*font-size: 20px; */
+
+
+	}
+
+
+	.button-3:hover {
+
+		background-color: #444;
+
+	}
+
+/*PIED DE PAGE*/
+	footer {
+
+		height: 260px;
+		background: #444;
+		display: block;
+		/*float: both;*/
+		/*bottom: 0;*/
+		text-align: center;
+		
+	}
+
+	footer h1 {
+		color: #fff;
+		padding-top: 50px;
+	}
+
+	.copyright {
+		color: #777;
+		padding-top:30px;
+
+	}
+
